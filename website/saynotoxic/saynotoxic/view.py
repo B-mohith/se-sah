@@ -1,6 +1,6 @@
 from django.shortcuts import render
-#from . import model_prediction
-from saynotoxic import model_prediction
+from . import model_prediction
+#from saynotoxic import model_prediction
 def home(request):
     return render(request,"index.html")
 def result(request):
